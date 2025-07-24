@@ -15,9 +15,7 @@ class CustomText extends StatelessWidget {
           text,
           style: style,
         ),
-        Text(
-          "text",
-        ),
+        Icon(Icons.access_alarm),
       ],
     );
   }
