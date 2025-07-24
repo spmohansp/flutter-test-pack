@@ -17,7 +17,6 @@ class CustomText extends StatelessWidget {
         ),
         Text(
           "text",
-          style: style,
         ),
       ],
     );
