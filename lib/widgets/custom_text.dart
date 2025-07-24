@@ -15,7 +15,7 @@ class CustomText extends StatelessWidget {
           text,
           style: style,
         ),
-        Icon(Icons.share,color: Colors.green,),
+        Icon(Icons.share,color: Colors.blue,),
       ],
     );
   }
