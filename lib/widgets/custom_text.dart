@@ -8,9 +8,18 @@ class CustomText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
-      text,
-      style: style ?? const TextStyle(fontSize: 16, color: Colors.black),
+    return Row(
+      
+      children: [
+        Text(
+          text,
+          style: style,
+        ),
+        Text(
+          "text",
+          style: style,
+        ),
+      ],
     );
   }
 }
